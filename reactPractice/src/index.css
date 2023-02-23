@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+    --themeColour :  #215f45fd;
+    /* --themeColour :  #b43616; */
+}
+*{
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.bgThemeClr{
+  background: var(--themeColour) !important;
+}
+
+.textThemeClr{
+  color: var(--themeColour) !important;
+}
+.scrollY::-webkit-scrollbar{
+ 
+  display: none;
+
+}
+
+
+#userIcon:hover > .loginContainer{
+    display: block;
+}
